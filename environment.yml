@@ -7,10 +7,9 @@ name: gammapy-1.2
 
 channels:
   - conda-forge
-  - sherpa
 
-#variables:
-#  PYTHONNOUSERSITE: "1"
+variables:
+  PYTHONNOUSERSITE: "1"
 
 dependencies:
   - python=3.10
@@ -36,10 +35,3 @@ dependencies:
   - pip
   - requests
   - tqdm
-  - pip:
-    - sherpa==4.16
-    - ray[default]==2.9
-
-
-
-    
